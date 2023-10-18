@@ -13,5 +13,3 @@ height = int(sys.argv[2])
 
 rectangle = Rectangle(width, height)
 print(f'Area is: {rectangle.area()}')
-
-
