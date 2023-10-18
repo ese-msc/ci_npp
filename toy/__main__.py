@@ -1,6 +1,6 @@
 import sys
 
-from . import *
+from . import Rectangle
 
 
 if len(sys.argv) < 3:

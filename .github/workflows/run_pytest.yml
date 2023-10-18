@@ -25,7 +25,6 @@ jobs:
         run: |
           python -m toy 1 2
 
-
       - name: Run tests # A script to run (in this case pytest)
         run: |
-          pytest -vv
+          python -m pytest -vv
